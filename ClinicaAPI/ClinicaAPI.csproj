@@ -20,4 +20,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\ci-clinica-api.yml" />
+  </ItemGroup>
+
 </Project>
